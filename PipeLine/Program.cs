@@ -10,6 +10,7 @@ namespace PipeLine
             string email = "farrokh.charoghchi@gmail.com";
             Func<object, object> getUserNameFunc = (object email) => ((string)email).Split('@')[0];
             Func<object, object> getUserNameLengthFunc = (object userName) => ((string)userName).Length;
+
             Func<object, object> GetlogResultFunc = (object length) => $"length is : {length} characters";
 
 
